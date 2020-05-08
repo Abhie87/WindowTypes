@@ -6,10 +6,31 @@
 	objectVersion = 48;
 	objects = {
 
+/* Begin PBXFileReference section */
+		8229EE8824658180004A83C7 /* index-debug.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = "index-debug.html"; path = "WindowTypes/index-debug.html"; sourceTree = "<group>"; };
+		8229EE8924658180004A83C7 /* main.j */ = {isa = PBXFileReference; lastKnownFileType = text; name = main.j; path = WindowTypes/main.j; sourceTree = "<group>"; };
+		8229EE8A24658180004A83C7 /* Resources */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Resources; path = WindowTypes/Resources; sourceTree = "<group>"; };
+		8229EE8B24658180004A83C7 /* Jakefile */ = {isa = PBXFileReference; lastKnownFileType = text; name = Jakefile; path = WindowTypes/Jakefile; sourceTree = "<group>"; };
+		8229EE8C24658180004A83C7 /* Frameworks */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Frameworks; path = WindowTypes/Frameworks; sourceTree = "<group>"; };
+		8229EE8D24658180004A83C7 /* AppController.j */ = {isa = PBXFileReference; lastKnownFileType = text; name = AppController.j; path = WindowTypes/AppController.j; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		8229EE8E24658180004A83C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = WindowTypes/Info.plist; sourceTree = "<group>"; };
+		8229EE8F24658180004A83C7 /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = index.html; path = WindowTypes/index.html; sourceTree = "<group>"; };
+		8229EE9024658337004A83C7 /* AppController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppController.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
 /* Begin PBXGroup section */
 		8229EE81246580D7004A83C7 = {
 			isa = PBXGroup;
 			children = (
+				8229EE9024658337004A83C7 /* AppController.h */,
+				8229EE8D24658180004A83C7 /* AppController.j */,
+				8229EE8C24658180004A83C7 /* Frameworks */,
+				8229EE8824658180004A83C7 /* index-debug.html */,
+				8229EE8F24658180004A83C7 /* index.html */,
+				8229EE8E24658180004A83C7 /* Info.plist */,
+				8229EE8B24658180004A83C7 /* Jakefile */,
+				8229EE8924658180004A83C7 /* main.j */,
+				8229EE8A24658180004A83C7 /* Resources */,
 			);
 			sourceTree = "<group>";
 		};
